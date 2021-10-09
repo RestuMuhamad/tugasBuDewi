@@ -57,7 +57,7 @@ window.addEventListener("load", () => {
 		const cardBuah = el;
 		cardBuah.classList.toggle("active");
 		setTimeout(() => {
-			cardBuah.style.background = "url('assets/jadi/" + angkaEl + "-1.png')";
+			cardBuah.style.background = "url('Assets/jadi/" + angkaEl + "-1.png')";
 			cardBuah.style.backgroundSize = "contain";
 			cardBuah.style.backgroundRepeat = "no-repeat";
 			cardBuah.classList.toggle("active");
@@ -117,9 +117,9 @@ window.addEventListener("load", () => {
 		boxGame.addEventListener("click", (e) => {
 			const angkaCard = ambilAngkaCard(e.target);
 			ubahCard(e.target);
-      setTimeout(() => {
-        angkaCard == namaBuah.className ? alertBenar() : alertSalah();
-      }, 800);
+			setTimeout(() => {
+				angkaCard == namaBuah.className ? alertBenar() : alertSalah();
+			}, 800);
 		});
 	}
 });
