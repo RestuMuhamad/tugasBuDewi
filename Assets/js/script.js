@@ -58,7 +58,7 @@ window.addEventListener("load", () => {
 		cardBuah.classList.toggle("active");
 		setTimeout(() => {
 			cardBuah.style.background =
-				"url('https://restumuhamad.github.io/tugasBuDewi/Assets/jadi/" +
+				"url('restumuhamad.github.io/tugasBuDewi/Assets/jadi/" +
 				angkaEl +
 				"-1.png')";
 			cardBuah.style.backgroundSize = "contain";
