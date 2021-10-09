@@ -122,7 +122,7 @@ window.addEventListener("load", () => {
 			ubahCard(e.target);
 			setTimeout(() => {
 				angkaCard == namaBuah.className ? alertBenar() : alertSalah();
-			}, 800);
+			}, 1000);
 		});
 	}
 });
