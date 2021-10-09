@@ -57,7 +57,7 @@ window.addEventListener("load", () => {
 		const cardBuah = el;
 		cardBuah.classList.toggle("active");
 		setTimeout(() => {
-			cardBuah.style.background = "url('Assets/jadi/" + angkaEl + "-1.png')";
+			cardBuah.style.background = "url('tugasBuDewi/Assets/jadi/" + angkaEl + "-1.png')";
 			cardBuah.style.backgroundSize = "contain";
 			cardBuah.style.backgroundRepeat = "no-repeat";
 			cardBuah.classList.toggle("active");
